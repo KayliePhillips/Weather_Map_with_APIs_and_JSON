@@ -1,9 +1,18 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json.Linq;
 using System.Text.Json.Nodes;
+using static System.Net.WebRequestMethods;
+
 
 var client = new HttpClient();
 
-var API_key = "804f42ef591a1394d26974b14d517404";
+var config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+string API_key = config.GetConnectionString("WeatherAPIKey");
+
 //var city_name = "Oklahoma City";
 
 Console.WriteLine($"********** Welcome to the Weather App **********");
