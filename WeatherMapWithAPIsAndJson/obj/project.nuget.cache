@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5Nbul3gy0aNRZGLWj8ZSbqibXa9MkaU3YXq/atpJkx3EA1sM8B783rmeZYeCXyz5Jtu3faEitr/UGvYnCoOArQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kayly\\Desktop\\Repos\\WeatherMapWithAPIsAndJSON\\WeatherMapWithAPIsAndJson\\WeatherMapWithAPIsAndJson.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kayly\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\kayly\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
